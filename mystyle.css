@@ -3,19 +3,19 @@
 .title { 
   width: 100%;
   background-color: #666;
-  color: #eee;
+  color: #ddd;
   padding: 28px;
 }
 
 body {background: #eee;}
   * {
+    margin: 28px;
     text-align: left; 
     font-family:'Arial', 'Noto Sans SC', '黑体' , sans-serif;
     font-size: 18px;
   }
 p {
-    padding-left: 56px;
-    padding-right: 56px;
+    text-indent:2em;
   }
 h1{
     font-weight: normal;
@@ -32,5 +32,11 @@ h3{
     font-size: 20px;
     font-family: 'ZCOOL QingKe HuangYou'
   }
+
+a:link{text-decoration: none; color: dodgerblue;}
+a:visited{text-decoration: none; color:blueviolet}
+a:hover, a:active{text-decoration: none; color: dodgerblue; background-color: #ddd;}
+
+ul{list-style:square}
 
 table{border: 1px black;}
