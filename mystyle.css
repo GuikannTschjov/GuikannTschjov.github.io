@@ -1,0 +1,10 @@
+body {background: #eee;}
+  * {
+    text-align: left; 
+    font-family: 'Noto Sans SC';
+    font-size: 18px
+  }
+h1{font-family: 'ZCOOL QingKe HuangYou'}
+h2{font-family: 'ZCOOL QingKe HuangYou'}
+h3{font-family: 'ZCOOL QingKe HuangYou'}
+table{border: 1px black;}
