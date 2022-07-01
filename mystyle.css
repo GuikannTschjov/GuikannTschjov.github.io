@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&amp;family=Noto+Serif+SC:wght@700&amp;family=Noto+Sans+SC:wght@500&amp;display=swap');
+
 body {background: #eee;}
   * {
     text-align: left; 
-    font-family: 'Noto Sans SC';
-    font-size: 18px
+    font-family:'Arial', 'Noto Sans SC', '黑体' , sans-serif;
+    font-size: 18px;
   }
 h1{font-family: 'ZCOOL QingKe HuangYou'}
 h2{font-family: 'ZCOOL QingKe HuangYou'}
