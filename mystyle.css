@@ -7,12 +7,18 @@
   padding: 28px;
 }
 
-body {background-image: url(background.png); background-position:bottom left;background-repeat: no-repeat; background-color: #98E0E0; background-size: 100%;}
-  * {
+body {
+  background-image: url(background.png);
+  image-rendering:pixelated; 
+  background-position:bottom left;
+  background-repeat: no-repeat; 
+  background-color: #98E0E0; 
+  background-size: 100%;
     text-align: left; 
     font-family:'Arial', 'Noto Sans SC', '黑体' , sans-serif;
     font-size: 18px;
   }
+
 p {
     text-indent:2em;
     margin: 0.5em
@@ -32,10 +38,13 @@ h3{
     font-size: 20px;
     font-family: 'ZCOOL QingKe HuangYou'
   }
-li{margin:0px;background-color:rgb(238, 238, 238, 0.5);}
+
+li{margin:0px;}
 
 a:link{margin:0px;text-decoration: none; color: royalblue;}
 a:visited{margin:0px;text-decoration: none; color:blueviolet}
 a:hover, a:active{margin:0px;text-decoration: none; color:royalblue; background-color: rgb(128, 128, 128, 0.5);}
 
 table{border: 1px black;}
+td{background-color:rgb(255, 255, 255, 0.5);}
+th{background-color:rgb(255, 255, 255, 0.75);}
