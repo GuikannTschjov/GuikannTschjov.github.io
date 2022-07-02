@@ -2,8 +2,8 @@
 
 .title { 
   width: 100%;
-  background-color: #666;
-  color: #ddd;
+  background-color: #6bb;
+  color: #dff;
   padding: 28px;
 }
 
@@ -32,10 +32,10 @@ h3{
     font-size: 20px;
     font-family: 'ZCOOL QingKe HuangYou'
   }
-li{margin:0px;}
+li{margin:0px;background-color:rgb(238, 238, 238, 0.5);}
 
-a:link{margin:0px;text-decoration: none; color: dodgerblue;}
+a:link{margin:0px;text-decoration: none; color: royalblue;}
 a:visited{margin:0px;text-decoration: none; color:blueviolet}
-a:hover, a:active{margin:0px;text-decoration: none; color: dodgerblue; background-color: #ddd;}
+a:hover, a:active{margin:0px;text-decoration: none; color:royalblue; background-color: rgb(128, 128, 128, 0.5);}
 
 table{border: 1px black;}
