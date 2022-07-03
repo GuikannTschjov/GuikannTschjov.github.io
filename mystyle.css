@@ -45,6 +45,6 @@ a:link{margin:0px;text-decoration: none; color: royalblue;}
 a:visited{margin:0px;text-decoration: none; color:blueviolet}
 a:hover, a:active{margin:0px;text-decoration: none; color:royalblue; background-color: rgb(128, 128, 128, 0.5);}
 
-table{border: 1px black;}
-td{background-color:rgb(255, 255, 255, 0.5);}
-th{background-color:rgb(255, 255, 255, 0.75);}
+table{border: solid 1px black;}
+td{background-color:rgb(255, 255, 255, 0.5);border: solid 1px black;}
+th{background-color:rgb(255, 255, 255, 0.75);border: solid 1px black;}
