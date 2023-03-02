@@ -9,11 +9,19 @@
   />
   <script src="../tablesort.js"></script>
   <iframe FRAMEBORDER=0 SCROLLING=no src="../header.html" height="auto" width="100%"></iframe>
-  <div class="title"><h1>Unicode中的特别汉字<br/><small>占位符</small></div>
+  <div class="title"><h1>奇怪的Unicode汉字<br/><small>徐冰的《天书》还是保守了</small></div>
     
-  <p>摘要：</p>
+  <p>摘要：看着就不像是“真实存在”着的汉字。然而确实存在，还收进了Unicode。</p>
 
-  <button onclick="sortTable(拼音)">按拼音排序</button>
+  <h2>看着单纯不像汉字的汉字</h2>
+    <q style="font-family: HanaMin; font-size: 200%;">
+      𭀗𭀘𭀙𭀚𭀜𬽆 乏乥㐍<br/>
+      𢆯𮠚𠚚𠥡𫴡𫴢𱶮𱶫𱷌𱷭𣈌𧰍𧰏<br/>
+      𠑱𬉱𬉨𦦾𢆂𱩻𫄒㶜𩙣𫴧<br/>
+    </q>
+
+  <h2>看着像错别字的汉字</h2>
+  <button onclick="sortTable('拼音')">按拼音排序</button>
   <table id="sortable" style="font-family: HanaMin; margin: auto;"><tbody><tr><th>
     原汉字
   </th><th>
@@ -84,6 +92,12 @@
       国</td><td>guo2</td><td>囯匤
       </td></tr><tr><td>
       步</td><td>bu4</td><td>歩
+      </td></tr><tr><td>
+      昼/td><td>zhou4</td><td>𡱮
+      </td></tr><tr><td>
+      戈</td><td>ge1</td><td>𢦑
+      </td></tr><tr><td>
+      噩</td><td>e4</td><td>𠥡
   </td></tr></tbody></table>    
 
   <q>
@@ -112,8 +126,17 @@ w袜𧙕 韦壭 未耒 胃胄 爲為𤔡 衛𫟘 問𠵘 污汚 伍鿉 捂㹳 �
 x西㐁 稀浠 熙𤋮 显㫫 项顼 辛䇂𨐌 刑𠛬 禧鿋 协㔹 香㕿稥 胸胷 朽𣏓 袖䄂 汻许 巽𢁉
 y压庒 延𨒂㢟 暘䑗 宜冝 羊𦍌 痒庠 曳曵 衍𧗠 药箹 音昱 盈𫞯 赢羸嬴䇔 勇勇 幽㟗 由甶 遊𨘋 友犮 幼㓜幻 与㢧 裕𥙿 冤寃𡨚 原厡𠩤 怨㤻 粤粵 
 z再再 寨𪧦 招㹦 哲𠵍啠 者者 挣狰 整𢿫 支攴 周周 抓㧓 拽㹭 轉𨍭 庄庒 捉㹱 字宇㝋 座𫝶
-皮肤𰤘 我要𧺖
   </q>
+
+<h2>看着像合字的汉字</h2>
+
+<table><tr>
+  <td>汉字</td><td>形似字</td><td>用例</td>
+</tr><tr>
+  <td>𰤘</td><td>好白</td><td>皮肤𰤘</td>
+</tr><tr>
+  <td>𧺖</td><td>走了</td><td>我要𧺖</td>
+</tr></table>
 
   <iframe FRAMEBORDER=0 SCROLLING=no src="../footer.html" style="height:472px;"  height="auto" width="100%"></iframe>
 </body>
