@@ -15,7 +15,7 @@ function sortTable(a) {
       x = rows[i].getElementsByTagName(a)[0];
       y = rows[i + 1].getElementsByTagName(a)[0];
       // 判断是否将下一个元素与当前元素进行切换
-     if (Number(x.innerHTML) > Number(y.innerHTML)) {
+     if (x.innerHTML > y.innerHTML) {
         // 设置调换元素标记，并结束当前循环
         shouldSwitch = true;
         break;
