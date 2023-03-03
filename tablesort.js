@@ -1,4 +1,4 @@
-function sortTable(a) {
+function sortTable(col) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = document.getElementById("sortable");
   switching = true;
@@ -12,8 +12,8 @@ function sortTable(a) {
       // 设置元素是否调换位置
       shouldSwitch = false;
       /* 获取要比较的元素 */
-      x = rows[i].getElementsByTagName(a)[0];
-      y = rows[i + 1].getElementsByTagName(a)[0];
+      x = rows[i].getElementsByTagName("td")[col];
+      y = rows[i + 1].getElementsByTagName("td")[col];
       // 判断是否将下一个元素与当前元素进行切换
      if (x.innerHTML > y.innerHTML) {
         // 设置调换元素标记，并结束当前循环
