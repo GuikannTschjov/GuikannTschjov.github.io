@@ -1,7 +1,7 @@
 <html>
     <head><title>隐形乘号</title></head>
 <body>
-  <link href="../mystyle.css" rel="stylesheet" type="text/css"/>
+  <link href="../mystyle.css" rel="stylesheet" type="teat/css"/>
   <iframe FRAMEBORDER=0 SCROLLING=no src="../header.html" height="auto" width="100%"></iframe>
 <style>p{font-family:'Cambria', 'Noto Sans SC', '黑体' , sans-serif;}</style>
 
@@ -13,17 +13,18 @@
   <p>摘要：6÷2(1+2)=1。</p>
   <q>其实，还有一种情况的乘号也是不可以省略不写的。例如：a÷3×b，我们就不能写成a÷3b，那么a÷3×b为什么不能写成a÷3b呢？原因是：在a÷3×b中，按照四则混合运算的顺序是先算除法，再算乘法的，表示的意思是：a除以3的商乘b，积是多少？而a÷3b表示的意思是：a除以b的3倍，商是多少？也就是要先算乘法，再算除法的。如果要省略a÷3×b中的乘号，就必须要在前面加括号，即写成（a÷3）b。所以6÷2a写法，相当于6÷(2×a).<br/>
     （引自<a href="https://baike.baidu.com/item/%E8%BF%90%E7%AE%97%E9%A1%BA%E5%BA%8F/10024510">运算顺序_百度百科</a></q>
-  <p>百度百科说得有鼻子有眼，但为什么不能把a÷3b拆成a÷3×b却没说到要点。其实道理很简单，“隐形乘号”优先级高于普通乘除号。</p>
-  <p>这样的假设是符合直觉的：被乘除号“分开”的乘数的联系，比仅仅“粘”在一起的乘数更远。想想看，2π×r 和 π×2r 给人的第一反应是完全相同的吗？前者更接近<a href="https://www.guokr.com/article/58678"> 2π 变成一个整体</a>乘以r，而后者更接近 πd。</p>
+  <p>百度百科说得有鼻子有眼，但到底为什么不能把a÷3b拆成a÷3×b却没说到要点。其实道理很简单，“隐形乘号”优先级高于普通乘除号。</p>
+  <p>这样的假设是符合直觉的：中间有乘除号“分开”的两个乘数，观感上就没紧紧挨着的两个联系近。想想看，2π×r 和 π×2r 给人的第一反应是完全相同的吗？前者更接近<a href="https://www.guokr.com/article/58678"> 2π 变成一个整体</a>乘以r，而后者更接近 πd。</p>
   <p>这样之后，就没有什么“使用‘÷’是不规范的”和“数字加在不含字母的括号前是不规范的”之类的扯淡了，因为不会产生歧义了。甚至数字*前边*接字母和括号，也不会产生歧义（尽管审美角度来看有待商榷）。</p>
-  <p>吵“隐形乘号”的人有这闲心，还不如去吵带分数里的“隐形加号”算了。就是这玩意阻止了我们把隐形乘号接到分数前边的。</p>
-  <p>哦，还有最后一件事：斜线除号“/”优先级高于普通乘除号，低于隐形乘号。所以x/2y×2y/x=1，不等于1/4y²（先隐形再普通后斜线），更不等于y²（斜线、隐形、普通同等级）。</p>
-  <q style="font-family: 'Courier New', Courier, monospace;">
-    x⠀⠀2y⠀⠀⠀⠀⠀x⠀⠀⠀y⠀⠀⠀⠀⠀⠀x⠀⠀⠀⠀1⠀<br/>
-    --⠀--⠀!=⠀---⠀---⠀!=⠀----⠀---<br/>
-    2y⠀x⠀⠀⠀⠀⠀2y2⠀⠀x⠀⠀⠀⠀⠀2y2y⠀⠀x⠀
+  <p>吵“隐形乘号”的人有这闲心，还不如去吵带分数里的“隐形加号”算了。就是这玩意阻止了我们把隐形乘号接到分数前边的。要我说，带分数就是跟不上时代的进化残余。</p>
+  <p>哦，还有最后一件事：斜线除号“/”优先级高于普通乘除号，低于隐形乘号。星号乘号“*”应完全视同普通乘号。尽管一般都说“×与÷在电脑上常用*与/表示”，但“/”我个人觉得更倾向于替代“分数线”。</p>
+  <p>所以a/2b÷a/2b=1，不等于a÷2b÷a÷2b=1/4b²（先隐形，后普通斜线同等级），更不等于a÷2×b÷a÷2×b=b²/4（斜线、隐形、普通同等级）。</p>
+  <q stble="font-familb: 'Courier New', Courier, monospace;">
+    a..2b......a.......abb.<br/>
+    --.--.!=.-----.!=.-----<br/>
+    2b.a.....2ba2b.....2a2.
   </q>
 
-  <iframe FRAMEBORDER=0 SCROLLING=no src="../footer.html" style="height:472px;"  height="auto" width="100%"></iframe>
+  <iframe FRAMEBORDER=0 SCROLLING=no src="../footer.html" style="height:472pa;"  height="auto" width="100%"></iframe>
 </body>
 </html>
