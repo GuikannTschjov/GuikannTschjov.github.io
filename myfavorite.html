@@ -11,8 +11,8 @@ font-size: 14px;
 padding: 4px;
 margin: 4px !important;
 }
-img{border:solid 2px #888; 
-background-color: #fff;margin: 4px}  </style>
+img{width:80%;margin: auto;border:solid 2px #888; 
+background-color: #fff}  </style>
   
   <h2>Guykann Tschjov 收集的网站</h2>
   <div style="display:flex; flex-wrap:wrap; justify-content:space-around; width:90%; margin:0 auto; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black">
@@ -186,7 +186,7 @@ background-color: #fff;margin: 4px}  </style>
 -->
   </div>
 
-  <div style="display:flex; flex-wrap:wrap; justify-content:space-around; width:90%; margin:0 auto; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black">
+  <div style="display:flex; flex-wrap:wrap; justify-content:space-around; width:90%; margin:0 auto; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black;border-top: none;">
   <a href="https://perchance.org/random-old-hangul-syllable-generator">
     <s>随机古谚文音节生成器</s><br>
     <small>随机生成满屏古谚文<br/>死因：墙</small>
@@ -206,19 +206,79 @@ background-color: #fff;margin: 4px}  </style>
   </div>
 
   <h2>Guykann Tschjov 的图片</h2>
-  <div style="display:flex; flex-wrap:wrap; justify-content:space-around; align-items:flex-start; margin:0 auto; width:90%; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black">
-    <img src="pics/“结束”乐队.jpg" height="100px">
-    <img src="pics/德语字喃.png" height="100px">
-    <img src="pics/感动，后藤桑金箔爹开哟捏！.png" height="100px">
-    <img src="pics/德语谚文字母表.png" height="200px">
-    <img src="pics/德语谚文辅音丛.jpg" height="200px">
-    <img src="pics/化学生僻字冰山.webp" height="270px">
-    <img src="pics/方块壮字虹夏圣经.png" height="200px">
-    <img src="pics/章鱼波奇汉字.jpg" height="200px">
-  <!--https://s4.ax1x.com/2022/02/16/HWUHr4.jpg-->
-  <!--https://s2.loli.net/2022/06/16/sAjW6gRzfH1oVbI.jpg-->
+    <div class="w3-content w3-display-container" style="text-align: center;margin:0 auto; width:90%; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black"">
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
   
-  </div>
+      <figure class="mySlides">
+        <img src="/pics/“结束”乐队.jpg">
+        <figcaption>“结束”乐队.jpg</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/化学生僻字冰山.webp">
+        <figcaption>化学生僻字冰山.webp</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/德语字喃.png">
+        <figcaption>德语字喃.png</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/德语谚文字母表.png">
+        <figcaption>德语谚文字母表.png</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/德语谚文辅音丛.jpg">
+        <figcaption>德语谚文辅音丛.jpg</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/感动，后藤桑金箔爹开哟捏！.png">
+        <figcaption>感动，后藤桑金箔爹开哟捏！.png</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/方块壮字虹夏圣经.png">
+        <figcaption>方块壮字虹夏圣经.png</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/析世鉴撞形字.jpg">
+        <figcaption>析世鉴撞形字.jpg</figcaption>
+      </figure>
+      <figure class="mySlides">
+        <img src="/pics/章鱼波奇汉字.jpg">
+        <figcaption>章鱼波奇汉字.jpg</figcaption>
+      </figure>
+        
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+    
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+    
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
+
+<h2>网络上收集的图片</h2>
+<div style="display:flex; flex-wrap:wrap; justify-content:space-around; align-items:flex-start; margin:0 auto; width:90%; background-color: rgb(255, 255, 255, 0.35); border: solid 1px black">
+  <img src="https://s2.loli.net/2022/06/16/sAjW6gRzfH1oVbI.jpg" height="270px">
+  <img src="https://picx.zhimg.com/80/v2-210db042b11ac446dca22deffaaab5fe_1440w.webp" height="200px">
+  <img src="https://pica.zhimg.com/80/v2-97bf8107939ee191a074f18a4c49c07d_1440w.webp" height="200px">
+  <img src="http://thepaper-prod-oldimagefromnfs.oss-cn-shanghai.aliyuncs.com/image/21/153/950.gif" height="100px">
+  <img src="https://pic3.zhimg.com/80/v2-fe9f2c06999a631c06cbfb444fd0f55a_1440w.webp" height="100px">
+</div>
+
 
   <iframe frameborder="0" scrolling="no" src="footer.html" style="height:472px;" height="auto" width="100%"></iframe>
 
